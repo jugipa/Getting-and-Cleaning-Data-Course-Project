@@ -1,10 +1,10 @@
 ## DATA DICTIONARY
-### Tidy date from Human Activity Recognition Using Smartphones Data Set
+#### Tidy date from Human Activity Recognition Using Smartphones Data Set
 Original data are collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained:
 [http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones]
 This dataset is the independent tidy data set with the average of each variable for each activity and each subject.
 
-#### activity	    
+### activity	    
     Activity Code. the class labels with their activity name
       Factor w/ 6 levels      
 1 WALKING  
@@ -14,12 +14,12 @@ This dataset is the independent tidy data set with the average of each variable 
 5 STANDING  
 6 LAYING  
 
-#### subject    
+### subject    
     An identifier of the subject who carried out the experiment.
         There are 30 volunteers.
 1 .. 30
 
-#### variable
+### variable
     The variable(features) selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. The set of variables that were estimated from these signals are mean():Mean value,
     std():Standard deviation. There are 66 variables in this dataset. For details, see the features_info.txt in original dataset.
       Factor w/ 66 levels
@@ -91,7 +91,7 @@ fBodyBodyGyroMag-std()
 fBodyBodyGyroJerkMag-mean()  
 fBodyBodyGyroJerkMag-std()
 
-#### avg    
+### avg    
     the average of each variable value for each activity and each subject.
         This data is between -0.9976661 ~ 0.9745087
   -1 ~ 1  
